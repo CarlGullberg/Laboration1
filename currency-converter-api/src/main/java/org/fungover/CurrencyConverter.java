@@ -1,6 +1,7 @@
 package org.fungover;
 
 public interface CurrencyConverter {
-    String getName();
     double convert(double amount);
+    String getSourceCurrency();
+    String getTargetCurrency();
 }
